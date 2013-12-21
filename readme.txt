@@ -1,6 +1,4 @@
 Jonathan An
-CS130: Project 2
-Fall 2013
 
 To run the program: render “samplemesh”.txt
 
@@ -11,9 +9,9 @@ To run the program: render “samplemesh”.txt
 's' = translate down along y-axis/rotate down about x-axis
 'a' = translate left along x-axis/rotate left about y-axis
 'd' = translate right along x-axis/rotate right about y-axis
-'i' = render image
+'i' = render image (May take some time)
 'l' = subdivide
-'g' = toggle
+'g' = toggle view (FRONT/TOP/SIDE)
 'esc' = exit
 
 ----------Notes---------
@@ -21,4 +19,4 @@ To run the program: render “samplemesh”.txt
 -The shadow created after rendering the image sometimes overlaps part of the mesh.
  (you can comment out the shadowRender function in the rayRender() function 
  under //FRONT VIEW
--I have implemented anti-aliasing by 2x2 supersampling.
+-I have attempted to implement anti-aliasing by 2x2 supersampling.
